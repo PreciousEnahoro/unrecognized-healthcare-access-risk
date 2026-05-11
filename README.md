@@ -1,4 +1,4 @@
-# Unrecognised Healthcare Access Risk
+# Unrecognized Healthcare Access Risk
 
 ## Overview
 
@@ -22,11 +22,11 @@ Using a county-level predictive model, expected healthcare access risk is estima
 The Tableau dashboard includes:
 
 - **Overview:** National comparison of expected risk vs. designation  
-- **Map:** Geographic distribution of unrecognised high-risk counties  
-- **Drivers:** Key structural differences between recognised and unrecognised counties  
+- **Map:** Geographic distribution of unrecognized high-risk counties  
+- **Drivers:** Key structural differences between recognized and unrecognized counties  
 - **Priority Counties:** Actionable list of counties for potential intervention  
 
-## Dashboard Preview
+### Dashboard Preview
 ![Overview](dashboard_outputs/HAGI-Overview.png)
 
 ![Map](dashboard_outputs/HAGI-Map.png)
@@ -43,7 +43,7 @@ Unrecognized high-risk counties differ from officially designated areas in meani
 - **Greater geographic barriers:** Residents are farther from healthcare facilities  
 - **Not primarily explained by socioeconomic factors:** Poverty and uninsured rates are similar or lower  
 
-👉 This suggests that current designation frameworks may underweight provider supply and geographic access—highlighting an opportunity for more data-driven, nationally scalable approaches to identifying underserved areas.
+This suggests that current designation frameworks may underweight provider supply and geographic access—highlighting an opportunity for more data-driven, nationally scalable approaches to identifying underserved areas.
 
 ---
 
@@ -68,26 +68,17 @@ By comparing expected access risk to official shortage designations, the framewo
    Predicted risk was compared to official HPSA designation status to identify misalignment.
 
 4. **Classification**  
-   Counties were categorized into:
-   - **High-Risk Not Designated**  
-   - **Officially Designated**  
-   - **Not Designated (Lower Expected Risk)**  
-
-5. **Analysis**  
-   Geographic patterns and structural drivers were analyzed to understand differences between recognized and unrecognized high-risk areas.
-
-👉 The approach is designed to be extensible to other domains where structural risk and official designation may diverge.
-
----
-
-## Classification Framework
-
 Counties are classified based on predicted risk and official designation:
 
 - **High-Risk Not Designated:** High predicted access risk without official shortage designation  
 - **Officially Designated:** Counties currently identified as shortage areas  
 - **Not Designated (Lower Expected Risk):** Counties with lower predicted risk and no designation  
 
+
+5. **Analysis**  
+   Geographic patterns and structural drivers were analyzed to understand differences between recognized and unrecognized high-risk areas.
+
+The approach is designed to be extensible to other domains where structural risk and official designation may diverge.
 
 ---
 
@@ -128,9 +119,4 @@ This framework can support:
 ## Final Positioning
 
 This project presents a nationally relevant analytical framework for identifying gaps between expected healthcare access risk and official shortage designations.
-
 It demonstrates how publicly available data and predictive modelling can support more data-informed, scalable approaches to identifying underserved communities across the U.S. healthcare system.
-
-This project presents a nationally relevant analytical framework for identifying gaps between expected healthcare access risk and official shortage designations.
-
-It demonstrates how publicly available data and predictive modeling can support more data-informed, scalable approaches to identifying underserved communities across the U.S. healthcare system.
