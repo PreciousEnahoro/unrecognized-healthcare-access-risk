@@ -1,4 +1,4 @@
-# Unrecognized Healthcare Access Risk
+# Unrecognised Healthcare Access Risk
 
 ## Overview
 
@@ -13,6 +13,20 @@ Using a county-level predictive model, expected healthcare access risk is estima
 - ~22% of U.S. counties are officially designated as healthcare shortage areas  
 - The model identifies **65 counties (~2.1%) with high access risk that are not officially designated**  
 - These counties represent approximately **1 in 50 counties nationwide**
+
+---
+## Dashboard
+
+[Tableau Public Dashboard Here](https://public.tableau.com/app/profile/precious.o.enahoro/viz/U_SHealthcareAccessGapIndexHAGI/SomeU_S_CountiesFaceUnrecognizedHealthcareAccessRisk)
+
+The Tableau dashboard includes:
+
+- **Overview:** National comparison of expected risk vs. designation  
+- **Map:** Geographic distribution of unrecognised high-risk counties  
+- **Drivers:** Key structural differences between recognised and unrecognised counties  
+- **Priority Counties:** Actionable list of counties for potential intervention  
+
+## Dashboard Preview
 
 ---
 
@@ -69,16 +83,6 @@ Counties are classified based on predicted risk and official designation:
 - **Officially Designated:** Counties currently identified as shortage areas  
 - **Not Designated (Lower Expected Risk):** Counties with lower predicted risk and no designation  
 
----
-
-## Dashboard
-
-The Tableau dashboard includes:
-
-- **Overview:** National comparison of expected risk vs. designation  
-- **Map:** Geographic distribution of unrecognized high-risk counties  
-- **Drivers:** Key structural differences between recognized and unrecognized counties  
-- **Priority Counties:** Actionable list of counties for potential intervention  
 
 ---
 
@@ -116,15 +120,11 @@ This framework can support:
 
 ---
 
-## Project Assets
-
-![Overview](assets/overview.png)  
-![Map](assets/map.png)  
-![Drivers](assets/drivers.png)
-
----
-
 ## Final Positioning
+
+This project presents a nationally relevant analytical framework for identifying gaps between expected healthcare access risk and official shortage designations.
+
+It demonstrates how publicly available data and predictive modelling can support more data-informed, scalable approaches to identifying underserved communities across the U.S. healthcare system.
 
 This project presents a nationally relevant analytical framework for identifying gaps between expected healthcare access risk and official shortage designations.
 
