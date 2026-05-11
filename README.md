@@ -27,6 +27,11 @@ The Tableau dashboard includes:
 - **Priority Counties:** Actionable list of counties for potential intervention  
 
 ## Dashboard Preview
+![Overview](dashboard_outputs/HAGI-Overview.png)
+
+![Map](dashboard_outputs/HAGI-Map.png)
+
+![Drivers](dashboard_outputs/HAGI-Drivers.png)
 
 ---
 
