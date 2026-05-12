@@ -11,8 +11,8 @@ Using a county-level predictive model, expected healthcare access risk is estima
 ## Key Findings
 
 - ~22% of U.S. counties are officially designated as healthcare shortage areas  
-- The model identifies **65 counties (~2.1%) with high access risk that are not officially designated**  
-- These counties represent approximately **1 in 50 counties nationwide**
+- The model identifies **65 counties (~1 in 50 counties nationwide) with high access risk that are not officially designated** as shortage areas
+- Many top-priority counties exhibit extremely limited physician office availability and above-average geographic distance to care. A prioritization framework was developed to support review and intervention targeting under resource constraints.
 
 ---
 ## Dashboard
@@ -81,7 +81,22 @@ Counties are classified based on predicted risk and official designation:
 The approach is designed to be extensible to other domains where structural risk and official designation may diverge.
 
 ---
+## Intervention Prioritization Framework
 
+In addition to identifying counties with elevated structural healthcare access risk, the project includes a prioritization framework designed to support resource allocation and intervention review.
+
+High-risk counties without official shortage designation are ranked using a composite priority score incorporating:
+
+- Expected healthcare access risk
+- Physician office availability
+- Distance to nearest clinic
+- Population scale
+
+The framework highlights counties where structural access barriers may warrant additional review of provider capacity and shortage designation status.
+
+This extension shifts the project from descriptive benchmarking toward actionable decision support for healthcare access planning and prioritization.
+
+---
 ## Example Use Cases
 
 This framework can support:
